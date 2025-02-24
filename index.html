@@ -20,7 +20,30 @@
     <script src="js/jquery.singlePageNav.min.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="js/custom.js"></script>  </head>
+    <script src="js/custom.js"></script>  
+
+    <style>
+      .consultation-btn-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+    
+      .consultation-btn {
+        background-color: #007bff;
+        color: #fff;
+        padding: 15px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
+    
+      .consultation-btn:hover {
+        background-color: #0056b3;
+      }
+    </style></head>
 <body id="top">
 
     <div class="preloader">
@@ -69,20 +92,22 @@
             </div>
         </div>
     </nav>
-    <section id="home">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8">
-                    <h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">Data-Driven Insights for <span>ALL</span>.</h1>
-                    <div class="element">
-                        <div class="sub-element">Luminary Data Solutions helps SMEs achieve scalable growth.</div>
-                        <div class="sub-element">We provide expert data analysis, AI-powered solutions, and advanced statistical modeling.</div>
-                        <div class="sub-element">Based in Utah, serving clients globally.</div>
-                    </div>
-                    <a data-scroll href="#contact" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">GET A FREE CONSULTATION</a>
-                </div>
+   <section id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+            <h1 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s">Data-Driven Insights for <span>ALL</span>.</h1>
+            <div class="element">
+              <div class="sub-element">Luminary Data Solutions helps SMEs achieve scalable growth.</div>
+              <div class="sub-element">We provide expert data analysis, AI-powered solutions, and advanced statistical modeling.</div>
+              <div class="sub-element">Based in Utah, serving clients globally.</div>
             </div>
+            <div class="consultation-btn-container wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">
+              <a data-scroll href="#contact" class="consultation-btn">GET A FREE CONSULTATION</a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section id="about">
         <div class="container">
