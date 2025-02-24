@@ -160,6 +160,12 @@ header .social-icon li a
 		line-height: 20px;
 		text-align: center;
 	}
+
+header .logo {
+	    max-height: 100px; /* Adjust this value as needed */
+	    height: auto; /* Let the height scale proportionally */
+	    width: auto;
+	}
 /* end header */
 
 /* start nagivation */
