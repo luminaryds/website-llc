@@ -209,11 +209,7 @@ header .logo {
 
 /* start home */
 #home {
-    position: relative; /* Needed for absolute positioning of the video */
-    padding-top: 160px;
-    padding-bottom: 100px;
-    min-height: 650px;
-    overflow: hidden; /* prevents scrollbars if the video is slightly larger */
+    margin: 0;
 }
 
 .video-container {
